@@ -1,0 +1,70 @@
+/* Reset CSS  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.intro {
+    min-height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.384)),
+        url(./green_esport_background_03.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    line-height: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-shadow: #b4efb8 5px 3px 11px;
+}
+
+#start-Btn {
+    background: linear-gradient(135deg, #e2d6d6, #0a4b02bd);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: ; */
+    font-size: 20px;
+    /* font-weight: bolder; */
+    border: none;
+    border-radius: 68px;
+    letter-spacing: 2px;
+    padding: 20px 35px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 20px 3px #21e03a;
+
+}
+
+/* .intro-box {
+    width: 400px;
+    height: 500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffff;
+    background-color: rgba(150, 129, 129, 0.199);
+    Border-radius: 16px;
+    background-image: url(./artistic-background-wallpaper-with-color-halftone-effect.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ */
+
+/* .quiz-app {
+    width: 400px;
+    height: 500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffff;
+    background-color: rgba(150, 129, 129, 0.199);
+    backdrop-filter: blur(10px);
+    Border-radius: 16px;
+}
+ */
