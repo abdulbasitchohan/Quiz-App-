@@ -1,4 +1,3 @@
-
 const IntroBox = document.querySelector(".intro");
 const startBtn = document.getElementById("start-Btn");
 const main = document.querySelector("main");
@@ -36,7 +35,7 @@ let score = 0;
 
 startBtn.addEventListener("click", () => {
     IntroBox.style.display = "none";
-    main.style.display = "block";
+    main.style.display = "flex";
     loadQuestion();
 });
 

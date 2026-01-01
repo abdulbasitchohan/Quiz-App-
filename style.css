@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.384)),
-        url(./green_esport_background_03.jpg);
+        url(./Images/green_esport_background_03.jpg);
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -28,43 +28,106 @@
 
 #start-Btn {
     background: linear-gradient(135deg, #e2d6d6, #0a4b02bd);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    /* font-family: ; */
-    font-size: 20px;
-    /* font-weight: bolder; */
+    color: #011b05;
+    font-family: Impact;
+    font-size: 22px;
     border: none;
-    border-radius: 68px;
+    border-radius: 75px;
     letter-spacing: 2px;
     padding: 20px 35px;
     margin-bottom: 50px;
     box-shadow: 0px 0px 20px 3px #21e03a;
+    cursor: pointer;
+}
+
+.intro-box{
+    padding: 50px;
+    border-radius: 80px;
+    box-shadow: inset 0px 0px 120px 30px #0d2201;
 
 }
 
-/* .intro-box {
+.quiz-box{
     width: 400px;
     height: 500px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #ffff;
+    font-family: sans-serif;
+    /* color: #ffff; */
     background-color: rgba(150, 129, 129, 0.199);
+    text-align: center;
     Border-radius: 16px;
-    background-image: url(./artistic-background-wallpaper-with-color-halftone-effect.jpg);
     background-size: cover;
     background-position: center;
+    padding: 30px;
+    background-image: url(./Images/artistic-background-wallpaper-with-color-halftone-effect.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.2);
+    
+}
+
+#Ques{
+    color: #ffff;
+}
+
+main{
+    background-image: url(./Images/7713.jpg);
+    background-attachment: fixed;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
- */
 
-/* .quiz-app {
-    width: 400px;
-    height: 500px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #ffff;
-    background-color: rgba(150, 129, 129, 0.199);
-    backdrop-filter: blur(10px);
-    Border-radius: 16px;
+main, #result {
+    display: none;
 }
- */
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #667eea;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5563c1;
+}
+
+.quiz-box h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    background: #f4f4f425;
+    backdrop-filter: blur(10px);
+    color: white;
+    margin: 8px 0;
+    padding: 15px 10px;
+    border-radius: 6px;
+    text-align: left;
+    cursor: pointer;
+}
+
+ul li input {
+    margin-right: 10px;
+    color: #011b05;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#result h2 {
+    margin-bottom: 10px;
+}
